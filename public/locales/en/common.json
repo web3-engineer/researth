@@ -1,0 +1,353 @@
+{
+  "navbar": {
+    "about": "About Us",
+    "homework": "Research Lab",
+    "workstation": "Workstation",
+    "study_rooms": "Study Rooms"
+  },
+  "intro": {
+    "line1": "STUDY, LEARN = RESEARCH...",
+    "line2": "PUBLISH = MONETIZE"
+  },
+  "menu": {
+    "new": "New Account",
+    "load": "Load Account",
+    "options": "Options",
+    "manual": "Manual",
+    "back": "Back",
+    "identity": "Identity",
+    "custom_profile": "Custom Profile",
+    "connected_as": "Connected as",
+    "google_save": "Google Save",
+    "dev_hack": "CEO MODE"
+  },
+  "roles": {
+    "student": "Student",
+    "researcher": "Researcher",
+    "professional": "Teacher",
+    "entrepreneur": "Entrepreneur"
+  },
+  "hints": {
+    "new_game": "HINT: Start with a new profile to check out Zaeon tech.",
+    "save_progress": "HINT: Connect your Google account to save progress and achievements.",
+    "roles": "HINT: Each class (Student, Researcher) unlocks exclusive tools.",
+    "wallet": "HINT: Load your saved progress to continue your journey.",
+    "options": "HINT: Access options to customize your profile and settings."
+  },
+  "options": {
+    "language": "Language",
+    "node": "Node",
+    "tutorials": "Tutorials",
+    "on": "ON",
+    "off": "OFF"
+  },
+  "footer": {
+    "powered": "    Powered by Google Vertex AI.   ",
+    "version": "Zaeon OS - v1.0"
+  },
+  "modal": {
+    "title": "New Account",
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "use_wallet": "Use Wallet",
+    "use_id": "Use ID",
+    "wallet_label": "Mantle Wallet",
+    "wallet_placeholder": "0x...",
+    "lbl_student": "Student ID",
+    "ph_student": "000...",
+    "lbl_researcher": "ORCID ID",
+    "ph_researcher": "ID...",
+    "lbl_professional": "Tax ID",
+    "ph_professional": "...",
+    "lbl_entrepreneur": "Company ID",
+    "ph_entrepreneur": "...",
+    "name_ph": "John Doe",
+    "email_ph": "you@email.com",
+    "phone_ph": "(00) 00000-0000",
+    "docs_label": "Verification Docs",
+    "pdf_placeholder": "PDF Upload",
+    "upload_placeholder": "Upload institutional proof (PDF)",
+    "or_manual": "OR Manually",
+    "attention_title": "Attention:",
+    "attention_desc": "Skipping documentation will flag your account as Unverified. You will be required to provide credentials later.",
+    "finish": "Finish Registration",
+    "skip": "Continue without Docs"
+  },
+  "homework": {
+    "mode_study": "Study Mode",
+    "mode_work": "Work Mode",
+    "switch_hint": "Click to switch to {{mode}}",
+    "switching": "Switching...",
+    "study_title": "Study Mode",
+    "add_files": "Add PDF",
+    "citations_title": "Citations",
+    "citations_empty": "Waiting for analysis...",
+    "citations_ready": "Context Loaded. Ready to cite.",
+    "videos_title": "Videos",
+    "status_digesting": "Digesting Document",
+    "status_typing": "Generating notes...",
+    "chat_header": "Research Insights",
+    "chat_placeholder": "Interact...",
+    "chat_empty": "Add a PDF and press Play to start.",
+    "chat_context_active": "Active Context",
+    "reload": "Reload",
+    "save_all": "Save All",
+    "paste_link": "Paste Link",
+    "suggest": "Suggest",
+    "specialist_1": "Academic Support",
+    "specialist_2": "Tech Reviewer",
+    "specialist_label": "Specialist",
+    "specialist_start": "Start a conversation with Specialist",
+    "specialist_placeholder": "Type your message..."
+  },
+  "workstation": {
+    "focus_mode": "Focus Mode",
+    "system_init": "System initialized. Agents ready.",
+    "connected": "Connected",
+    "welcome": "Welcome",
+    "login": "Login",
+    "active_agent": "Active Agent",
+    "clear_history": "Clear History",
+    "send": "SEND",
+    "generate": "GENERATE",
+    "processing": "Processing...",
+    "session_save": "Save Session",
+    "auto_fix": "AUTO-FIX",
+    "no_wallet": "Connect Wallet",
+    "doc_title_placeholder": "Document Title...",
+    "doc_content_placeholder": "Waiting for output...",
+    "chat_placeholder": "Ask Zaeon about {{role}}...",
+    "logs": {
+      "switched": "Switched to {{name}}",
+      "gen_protocol": "Protocol initiated via {{name}}",
+      "content_gen": "Content generated.",
+      "ipfs_success": "IPFS Success: {{hash}}",
+      "blockchain_init": "Securing on Mantle...",
+      "success": "Success!",
+      "error": "Error."
+    }
+  },
+  "agents": {
+    "zenita": {
+      "role": "Technology"
+    },
+    "ballena": {
+      "role": "Health"
+    },
+    "ethernaut": {
+      "role": "Mathematics"
+    }
+  },
+  "encryption": {
+    "typing_title": "A new way to produce science.",
+    "pipeline_title": "One Goal, Multiple Agents",
+    "steps": {
+      "vertex": {
+        "title": "Vertex AI",
+        "full": "Google Vertex AI",
+        "desc": "The best AI Agents specifically tailored for education, research, and institutions."
+      },
+      "students": {
+        "title": "Students",
+        "full": "Academic Network",
+        "desc": "We connect students, researchers and teachers around the world without language barriers."
+      },
+      "research": {
+        "title": "Research",
+        "full": "Laboratories",
+        "desc": "Scientific Validation happening inside academic instituitions, with a real community being built by real people."
+      },
+      "publish": {
+        "title": "Publishing",
+        "full": "Dissemination",
+        "desc": "The best tools to help you publish your work, from initial drafting to a full research paper, we got everything. "
+      },
+      "compliance": {
+        "title": "Compliance",
+        "full": "Auditing",
+        "desc": "From Ethics to Legal Compliance for produce science on the blockchain? We got you covered through all processes."
+      },
+      "blockchain": {
+        "title": "Blockchain",
+        "full": "Very Network",
+        "desc": "Immutable Record, Transparent Data, Secure Storage, certified credentials, IP protection, Tokenization."
+      },
+      "ip": {
+        "title": "IP",
+        "full": "Property",
+        "desc": "Copyrights are owned by you and protected by the blockchain. Your work is yours."
+      },
+      "token": {
+        "title": "Token",
+        "full": "Tokenization",
+        "desc": "Tokenize your work and sell it on the blockchain, or use it to raise funds for your research, the negotiation is up to you."
+      }
+    }
+  },
+  "study_rooms": {
+    "system": "SYSTEM_OPTIMAL",
+    "secure": "SECURE_CHANNEL",
+    "encrypted": "ENCRYPTED",
+    "highlight": "Find your Squad. Research. Publish.",
+    "together": "TOGETHER.",
+    "lobby_status": "LOBBY_STATUS: LIVE",
+    "find_party": "Collective Science is funnier",
+    "select_cluster": "Select a research cluster",
+    "join": "Join Session",
+    "select": "Select a Room",
+    "rooms": {
+      "cyber_name": "Cybernetics Hall",
+      "cyber_topic": "Technology & Innovation",
+      "bio_name": "Bio-Lab Alpha",
+      "bio_topic": "Bio, Medicine & Health",
+      "quantum_name": "Quantum Field",
+      "quantum_topic": "Mathematics and physics",
+      "global_name": "Global Lounge",
+      "global_topic": "General Studies"
+    }
+  },
+  "lounge_chat": {
+    "system_restricted": "System Restricted",
+    "chat_offline": "Chat Offline",
+    "access_denied": "Access Denied",
+    "no_credentials": "You don't have enough credentials to access the global chat."
+  },
+  "research_module": {
+    "active_projects": "{{count}} ACTIVE PROJECTS",
+    "credentials_error": "You don't have enough credentials to access the chat",
+    "api_connected": "API Connected",
+    "rank": "Rank",
+    "negotiate_ip": "Negotiate IP",
+    "not_available": "Not available yet",
+    "phds": "PhDs",
+    "masters": "Masters",
+    "undergrads": "Undergrads",
+    "exploring": "Exploring",
+    "validating": "Validating",
+    "building": "Building",
+    "review": "Awaiting Human Peer Review",
+    "completed": "Completed",
+    "agents_production": "Agents in Production",
+    "commercial": "Commercial App",
+    "research": "Research App",
+    "social": "Social Impact",
+    "profitability": "Profitability",
+    "project_rank": "Project Rank"
+  },
+  "about": {
+    "back": "Back",
+    "scroll_down": "scroll down to learn everything",
+    "title_secondary": "The school of the future.",
+    "title_main": "HAPPENING NOW.",
+    "genesis": {
+      "title": "The Genesis of the Protocol",
+      "p1": "Today, our attention is stolen by large corporations seeking only profit, capturing the focus of millions while their algorithms erode human intelligence.",
+      "p2": "Zaeon emerges to change this: we've come to rescue the joy of learning again: with depth, modernity, and fun. While traditional education stopped in time, we unlock your true potential through powerful AI Agents. Here, humans and machines work for a better world ",
+      "p2_highlight": "within the Blockchain."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "p1": "To empower the next generation of students, researchers, and teachers by offering simple-to-use tools for the daily life on high performance education.",
+      "p2": "Leading them to a complete monetization platform for their academic endurance."
+    },
+    "architecture": {
+      "title": "The Zaeon Architecture",
+      "subtitle": "Innovative technology set to impact millions of students worldwide.",
+      "card_title": "MANTLE NETWORK RWA ENGINE",
+      "card_desc": "Monetize your research with the help of AI Agents. IP Equity & Real Yield.",
+      "flow": {
+        "step1": "RESEARCH",
+        "step2": "VALIDATION",
+        "step3": "MANTLE NETWORK",
+        "step4": "RWA ENGINE",
+        "step5": "INTELLECTUAL ASSET",
+        "step6": "RESEARCH MONETIZATION",
+        "step7": "PROFIT POOL"
+      }
+    },
+    "cta": {
+      "tour_title": "READY TO GO DEEPER? WE GOT YOU.",
+      "button_go": "GO !"
+    }
+  },
+  "tech_room": {
+    "gateway_title": "SECURE_GATEWAY_V3",
+    "access_denied_code": "ACCESS_DENIED",
+    "restricted_title": "RESTRICTED ACCESS",
+    "student_area": "student area",
+    "msg_denied": "Access Denied.",
+    "msg_id_req": "Identification required.",
+    "key_label": "Access Key",
+    "btn_auth": "AUTHENTICATE",
+    "btn_wrong": "WRONG KEY",
+    "tunnel": "Encrypted Tunnel: ZAEON-NET",
+    "status_fail": "Status: ERR_AUTH_FAIL",
+    "status_wait": "Status: AWAITING_KEY",
+    "courses": {
+      "cs": "Computer Science",
+      "se": "Software Engineering",
+      "is": "Information Systems",
+      "ce": "Computer Engineering",
+      "ads": "Systems Analysis & Dev",
+      "net": "Computer Networks",
+      "infosec": "Info Security",
+      "db": "Databases",
+      "it_mgmt": "IT Management",
+      "games": "Digital Games",
+      "ai": "Artificial Intelligence",
+      "ds": "Data Science",
+      "cloud": "Cloud Computing",
+      "devops": "DevOps",
+      "cyber": "Cybersecurity",
+      "block": "Blockchain",
+      "bigdata": "Big Data Analytics",
+      "mba": "MBA IT Project Mgmt"
+    }
+  },
+  "hero": {
+    "powered": "Zaeon ",
+    "version": "Zaeon OS - v1.0",
+    "sponsors_title": "SPONSORS:",
+    "alt_workstation": "Workstation View",
+    "alt_onboard": "Onboarding Assistant"
+  },
+  "feed": {
+    "header_community": "Zaeon Global Network",
+    "header_section": "Zaeon Protocol // {{section}}",
+    "tooltip_uplink": "Uplink: Syncing...",
+    "tooltip_ready": "System: Ready for Uplink",
+    "tooltip_online": "ONLINE",
+    "tooltip_offline": "OFFLINE",
+    "btn_enter": "ENTER COMMUNITY",
+    "btn_back": "Back",
+    "live_stream": "Data Stream",
+    "input_placeholder": "Broadcast message...",
+    "thread_view": "Thread View",
+    "responses": "Responses",
+    "reply_placeholder": "Reply...",
+    "empty_state": "No broadcasts detected in this sector.",
+    "delete_confirm": "Delete this broadcast?",
+    "static_rules": "⚠️ Rules: Zaeon is an academic collaboration environment. Respect others.",
+    "static_welcome": "Starting Cluster monitoring. Welcome, explorers."
+  },
+  "profile": {
+    "back_options": "Back to Options",
+    "tap_avatar": "Tap to change avatar",
+    "display_name": "Display Name",
+    "name_placeholder": "Enter your alias...",
+    "course_label": "Academic Course",
+    "course_placeholder": "Ex: Computer Science",
+    "verification_title": "Verification Required:",
+    "verification_desc": "You will be asked to provide proof of enrollment for {{course}} later to unlock academic features.",
+    "default_course": "this course",
+    "saving": "Saving...",
+    "save": "Save Changes",
+    "success": "Profile saved!",
+    "session_label": "Session Control",
+    "logout_action": "Disconnect (Logout)",
+    "success_message": "Credentials Updated"
+  }
+}

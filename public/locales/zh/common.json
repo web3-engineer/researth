@@ -1,0 +1,356 @@
+{
+    "navbar": {
+        "about": "关于我们",
+        "homework": "研究实验室",
+        "workstation": "工作站",
+        "study_rooms": "自习室"
+    },
+    "intro": {
+        "line1": "研究、学习=研究...",
+        "line2": "发布 = 货币化"
+    },
+    "menu": {
+        "new": "新账户",
+        "load": "加载账户",
+        "options": "选项",
+        "manual": "手动的",
+        "back": "后退",
+        "identity": "身份",
+        "custom_profile": "自定义配置文件",
+        "connected_as": "连接为",
+        "google_save": "谷歌保存",
+        "dev_hack": "首席执行官模式"
+    },
+    "roles": {
+        "student": "学生",
+        "researcher": "研究员",
+        "professional": "老师",
+        "entrepreneur": "企业家"
+    },
+    "hints": {
+        "new_game": "提示：从新的个人资料开始查看 Zaeon 技术。",
+        "save_progress": "提示：连接您的 Google 帐户以保存进度和成就。",
+        "roles": "提示：每个班级（学生、研究员）都可以解锁专属工具。",
+        "wallet": "提示：加载您保存的进度以继续您的旅程。",
+        "options": "提示：访问选项来自定义您的个人资料和设置。"
+    },
+    "options": {
+        "language": "语言",
+        "node": "节点",
+        "tutorials": "教程",
+        "on": "在",
+        "off": "离开"
+    },
+    "footer": {
+        "powered": "帮助我们上链！ - 在这里资助我们的研究。",
+        "version": "Zaeon 操作系统 - v1.0"
+    },
+    "modal": {
+        "title": "新账户",
+        "name": "姓名",
+        "email": "电子邮件",
+        "phone": "电话",
+        "continue": "继续",
+        "cancel": "取消",
+        "use_wallet": "使用钱包",
+        "use_id": "使用ID",
+        "wallet_label": "地幔钱包",
+        "wallet_placeholder": "0x...",
+        "lbl_student": "学生证",
+        "ph_student": "000...",
+        "lbl_researcher": "ORCID ID",
+        "ph_researcher": "ID...",
+        "lbl_professional": "税号",
+        "ph_professional": null,
+        "lbl_entrepreneur": "公司编号",
+        "ph_entrepreneur": null,
+        "name_ph": "约翰·多伊",
+        "email_ph": "你@email.com",
+        "phone_ph": "(00)00000-0000",
+        "docs_label": "验证文件",
+        "pdf_placeholder": "PDF上传",
+        "upload_placeholder": "上传机构证明 (PDF)",
+        "or_manual": "或手动",
+        "attention_title": "注意力：",
+        "attention_desc": "跳过文档会将您的帐户标记为未经验证。稍后您将需要提供凭据。",
+        "finish": "完成注册",
+        "skip": "无需文档即可继续"
+    },
+    "homework": {
+        "mode_study": "学习模式",
+        "mode_work": "工作模式",
+        "switch_hint": "点击切换到{{mode}}",
+        "switching": "交换...",
+        "study_title": "学习模式",
+        "add_files": "添加PDF",
+        "citations_title": "引文",
+        "citations_empty": "等待分析...",
+        "citations_ready": "上下文已加载。准备引用。",
+        "videos_title": "视频",
+        "status_digesting": "消化文件",
+        "status_typing": "正在生成笔记...",
+        "chat_header": "研究见解",
+        "chat_placeholder": "相互影响...",
+        "chat_empty": "添加 PDF 并按“播放”开始。",
+        "chat_context_active": "主动语境",
+        "reload": "重新加载",
+        "save_all": "全部保存",
+        "paste_link": "粘贴链接",
+        "suggest": "建议",
+        "specialist_1": "学术支持",
+        "specialist_2": "技术评论员",
+        "specialist_label": "专家",
+        "specialist_start": "与专家开始对话",
+        "specialist_placeholder": "输入您的消息..."
+    },
+    "workstation": {
+        "focus_mode": "对焦模式",
+        "system_init": "系统已初始化。代理准备好了。",
+        "connected": "已连接",
+        "welcome": "欢迎",
+        "login": "登录",
+        "active_agent": "活性剂",
+        "clear_history": "清除历史记录",
+        "send": "发送",
+        "generate": "产生",
+        "processing": "加工...",
+        "session_save": "保存会话",
+        "auto_fix": "自动修复",
+        "no_wallet": "连接钱包",
+        "doc_title_placeholder": "文档标题...",
+        "doc_content_placeholder": "等待输出...",
+        "chat_placeholder": "向 Zaeon 询问有关 {{role}} 的事情...",
+        "logs": {
+            "switched": "切换到{{name}}",
+            "gen_protocol": "通过 {{name}} 发起的协议",
+            "content_gen": "生成的内容。",
+            "ipfs_success": "IPFS 成功：{{hash}}",
+            "blockchain_init": "固定在地幔上...",
+            "success": "成功！",
+            "error": "错误。"
+        }
+    },
+    "agents": {
+        "zenita": {
+            "role": "技术"
+        },
+        "ballena": {
+            "role": "健康"
+        },
+        "ethernaut": {
+            "role": "数学"
+        }
+    },
+    "encryption": {
+        "title": "来自另一个维度的人工智能代理。",
+        "subtitle": "他们来帮助你成为最好的。",
+        "button": "了解更多",
+        "typing_title": "产生科学的新方法。",
+        "pipeline_title": "扎安管道",
+        "steps": {
+            "vertex": {
+                "title": "顶点人工智能",
+                "full": "谷歌顶点人工智能",
+                "desc": "预测建模"
+            },
+            "students": {
+                "title": "学生",
+                "full": "学术网络",
+                "desc": "收藏与策展"
+            },
+            "research": {
+                "title": "研究",
+                "full": "实验室",
+                "desc": "科学验证"
+            },
+            "publish": {
+                "title": "出版",
+                "full": "传播",
+                "desc": "技术论文"
+            },
+            "compliance": {
+                "title": "遵守",
+                "full": "审计",
+                "desc": "道德与法律"
+            },
+            "blockchain": {
+                "title": "区块链",
+                "full": "非常网络",
+                "desc": "不可变记录"
+            },
+            "ip": {
+                "title": "知识产权",
+                "full": "财产",
+                "desc": "版权"
+            },
+            "token": {
+                "title": "代币",
+                "full": "代币化",
+                "desc": "数字资产"
+            }
+        }
+    },
+    "study_rooms": {
+        "system": "系统优化",
+        "secure": "安全通道",
+        "encrypted": "加密",
+        "highlight": "找到你的小队。研究。发布。",
+        "together": "一起。",
+        "lobby_status": "LOBBY_STATUS：实时",
+        "find_party": "集体科学更有趣",
+        "select_cluster": "选择一个研究集群",
+        "join": "加入会话",
+        "select": "选择房间",
+        "rooms": {
+            "cyber_name": "控制论大厅",
+            "cyber_topic": "技术与创新",
+            "bio_name": "阿尔法生物实验室",
+            "bio_topic": "生物、医药与健康",
+            "quantum_name": "量子场",
+            "quantum_topic": "数学和物理",
+            "global_name": "全球休息室",
+            "global_topic": "常识科"
+        }
+    },
+    "lounge_chat": {
+        "system_restricted": "系统受限",
+        "chat_offline": "离线聊天",
+        "access_denied": "拒绝访问",
+        "no_credentials": "您没有足够的凭据来访问全局聊天。"
+    },
+    "research_module": {
+        "active_projects": "{{count}} 个活跃项目",
+        "credentials_error": "您没有足够的凭据来访问聊天",
+        "api_connected": "API连接",
+        "rank": "秩",
+        "negotiate_ip": "协商IP",
+        "not_available": "尚不可用",
+        "phds": "博士",
+        "masters": "大师赛",
+        "undergrads": "本科生",
+        "exploring": "探索",
+        "validating": "正在验证",
+        "building": "建筑",
+        "review": "等待人类同行评审",
+        "completed": "完全的",
+        "agents_production": "生产代理",
+        "commercial": "商业应用程序",
+        "research": "研究应用程序",
+        "social": "社会影响",
+        "profitability": "盈利能力",
+        "project_rank": "项目排名"
+    },
+    "about": {
+        "back": "后退",
+        "scroll_down": "向下滚动以了解所有内容",
+        "title_secondary": "未来的学校。",
+        "title_main": "现在正在发生。",
+        "genesis": {
+            "title": "协议的起源",
+            "p1": "如今，我们的注意力被只追求利润的大公司窃取，吸引了数百万人的注意力，而他们的算法却侵蚀了人类的智力。",
+            "p2": "Zaeon 的出现改变了这一点：我们再次拯救学习的乐趣：深度、现代性和乐趣。虽然传统教育及时停止，但我们通过强大的人工智能代理释放您的真正潜力。在这里，人类和机器为更美好的世界而努力",
+            "p2_highlight": "在区块链内。"
+        },
+        "mission": {
+            "title": "我们的使命",
+            "p1": "通过为高性能教育的日常生活提供简单易用的工具，为下一代学生、研究人员和教师提供支持。",
+            "p2": "引导他们进入一个完整的货币化平台，以提高他们的学业耐力。"
+        },
+        "architecture": {
+            "title": "扎安建筑",
+            "subtitle": "创新技术将影响全球数百万学生。",
+            "card_title": "MANTLE 网络 RWA 引擎",
+            "card_desc": "在人工智能代理的帮助下将您的研究货币化。知识产权股权和实际收益。",
+            "flow": {
+                "step1": "研究",
+                "step2": "验证",
+                "step3": "地幔网络",
+                "step4": "鲁瓦发动机",
+                "step5": "智力资产",
+                "step6": "研究货币化",
+                "step7": "利润池"
+            }
+        },
+        "cta": {
+            "tour_title": "准备好深入了解了吗？我们找到你了。",
+            "button_go": "去 ！"
+        }
+    },
+    "tech_room": {
+        "gateway_title": "SECURE_GATEWAY_V3",
+        "access_denied_code": "拒绝访问",
+        "restricted_title": "限制访问",
+        "student_area": "学生区",
+        "msg_denied": "拒绝访问。",
+        "msg_id_req": "需要身份证明。",
+        "key_label": "访问密钥",
+        "btn_auth": "认证",
+        "btn_wrong": "钥匙错误",
+        "tunnel": "加密隧道：ZAEON-NET",
+        "status_fail": "状态：ERR_AUTH_FAIL",
+        "status_wait": "状态：AWAITING_KEY",
+        "courses": {
+            "cs": "计算机科学",
+            "se": "软件工程",
+            "is": "信息系统",
+            "ce": "计算机工程",
+            "ads": "系统分析与开发",
+            "net": "计算机网络",
+            "infosec": "信息安全",
+            "db": "数据库",
+            "it_mgmt": "信息技术管理",
+            "games": "数字游戏",
+            "ai": "人工智能",
+            "ds": "数据科学",
+            "cloud": "云计算",
+            "devops": "开发运营",
+            "cyber": "网络安全",
+            "block": "区块链",
+            "bigdata": "大数据分析",
+            "mba": "MBA IT 项目管理"
+        }
+    },
+    "hero": {
+        "powered": "扎翁",
+        "version": "Zaeon 操作系统 - v1.0",
+        "sponsors_title": "赞助商：",
+        "alt_workstation": "工作站视图",
+        "alt_onboard": "入职助理"
+    },
+    "feed": {
+        "header_community": "泽安全球网络",
+        "header_section": "Zaeon 协议 // {{section}}",
+        "tooltip_uplink": "上行链路：正在同步...",
+        "tooltip_ready": "系统：准备上行",
+        "tooltip_online": "在线的",
+        "tooltip_offline": "离线",
+        "btn_enter": "进入社区",
+        "btn_back": "后退",
+        "live_stream": "数据流",
+        "input_placeholder": "广播消息...",
+        "thread_view": "线程视图",
+        "responses": "回应",
+        "reply_placeholder": "回复...",
+        "empty_state": "该扇区未检测到广播。",
+        "delete_confirm": "删除这个广播吗？",
+        "static_rules": "⚠️规则：Zaeon 是一个学术合作环境。尊重他人。",
+        "static_welcome": "启动集群监控。欢迎，探险家。"
+    },
+    "profile": {
+        "back_options": "返回选项",
+        "tap_avatar": "点击即可更改头像",
+        "display_name": "显示名称",
+        "name_placeholder": "输入您的别名...",
+        "course_label": "学术课程",
+        "course_placeholder": "例如：计算机科学",
+        "verification_title": "需要验证：",
+        "verification_desc": "稍后系统会要求您提供 {{course}} 的注册证明以解锁学术功能。",
+        "default_course": "这门课程",
+        "saving": "保存...",
+        "save": "保存更改",
+        "success": "个人资料已保存！",
+        "session_label": "会话控制",
+        "logout_action": "断开连接（注销）",
+        "success_message": "凭证已更新"
+    }
+}

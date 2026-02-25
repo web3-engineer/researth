@@ -1,0 +1,164 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// --- MODELO DE USUÁRIO ---
+model User {
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?   
+  
+  // Profile
+  course        String?   
+  bio           String?   
+  age           Int?
+  gender        String?
+  torsoImage    String?   
+  role          String?   
+  phone         String?   
+  
+  // Gamification
+  level         Int       @default(1)
+  streak        Int       @default(0)
+  xp            Int       @default(0)
+  
+  // Identity
+  identityId    String?   
+  idType        String?   
+  walletAddress String?   
+  
+  // Admin
+  kycStatus     String    @default("pending")
+  documents     Json?     
+  institution   String?   
+
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // Relations
+  accounts      Account[]
+  sessions      Session[]
+  posts         Post[]
+  comments      Comment[]
+  userSpaceData UserSpaceData?
+}
+
+// --- MEMÓRIA DO LOUNGE & SALAS (ATUALIZADO) ---
+model UserSpaceData {
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  
+  userId        String   @unique @db.ObjectId
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // --- STATE PERSISTENCE (Sincronizado com o Frontend) ---
+  
+  // 1. Layout & UI States (YearBoard toggle, Gadget On/Off, Plug Position, Sticky Visibility)
+  layoutState   Json?    // Ex: { showYearBoard: true, gadgetOn: false, pluggedDay: 2, showSticky: true }
+
+  // 2. Data Content
+  schedule      Json?    // Array de aulas (classes)
+  stickyNote    String?  // Texto do post-it
+  
+  // 3. Modules Data
+  chatHistory   Json?    // Histórico do Assistant (Role: User/AI)
+  zaeonChat     Json?    // Histórico do Zaeon (Role: User/Agent)
+  library       Json?    // Docs salvos (storedPdfs)
+  fabricator    Json?    // Docs gerados (generatedDocs)
+  personalModules Json?  // Backpack & Archives (userModules)
+
+  // 4. Objectives (Profile Page)
+  objectives    Json?    // Matriz de hábitos
+
+  // Legacy/Other
+  activeProject Json?    
+  citations     Json?    
+  workContent   String?  
+  workTitle     String?  
+
+  updatedAt     DateTime @updatedAt
+}
+
+model SystemSetting {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  key       String   @unique 
+  value     String   
+  updatedAt DateTime @updatedAt
+}
+
+model Post {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  content   String
+  likes     String[] @default([]) 
+  createdAt DateTime @default(now())
+  room      String   @default("lounge") 
+  user      String   
+  userImage String?  
+  userId    String?  @db.ObjectId
+  author    User?    @relation(fields: [userId], references: [id])
+  comments  Comment[]
+}
+
+model Comment {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  content   String
+  user      String   
+  createdAt DateTime @default(now())
+  postId    String   @db.ObjectId
+  post      Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
+  userId    String?  @db.ObjectId
+  author    User?    @relation(fields: [userId], references: [id])
+}
+
+// --- MODELO ATUALIZADO PARA I18N ---
+model NewsPost {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  
+  // Campos transformados em Json para suportar os objetos de idioma
+  // Ex: { "pt": "Título", "en": "Title", "zh": "标题", "es": "Título", "fr": "Titre" }
+  title       Json
+  subtitle    Json?
+  content     Json
+  
+  imageUrl    String?
+  publishDate DateTime @default(now())
+  status      String   @default("draft")
+  category    String   @default("news") 
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Account {
+  id                String  @id @default(auto()) @map("_id") @db.ObjectId
+  userId            String  @db.ObjectId
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.String
+  access_token      String? @db.String
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.String
+  session_state     String?
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  sessionToken String   @unique
+  userId       String   @db.ObjectId
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}

@@ -1,0 +1,44 @@
+# --- ZAEON FRONTEND (Next.js / Node) ---
+node_modules/
+.next/
+out/
+build/
+.turbo/
+.vercel
+.pnp
+.pnp.js
+.yarn/install-state.gz
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/.vscode/
+
+# --- casper ---
+zaeon-contracts/keys/
+secret_key.pem
+
+# --- AMBIENTE E SEGURANÇA ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+service-account.json
+zaeon-backend.json
+
+# --- TESTES E LOGS ---
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.cache/
+
+# --- IDE E SISTEMA ---
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+*.tsbuildinfo
+/generated/prisma
